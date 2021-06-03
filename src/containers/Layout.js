@@ -1,6 +1,7 @@
 import {Fragment } from 'react';
 import Header from './Header';
 import Welcome from './Welcome';
+import About from './About';
 
 
 const Layout = () =>{
@@ -8,6 +9,7 @@ const Layout = () =>{
     <Fragment>
         <Header />
         <Welcome />
+        <About />
 
 
     </Fragment>

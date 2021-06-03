@@ -19,7 +19,7 @@ const Header = () =>{
                             </button>
                         </div>
                         <a className="theme-color" href="/">
-                            &lt;&gt;Imagine&lt;&sol;&gt;
+                            &lt;&gt;Imagine&lt;&#47;&gt;
                         </a>
                     </div>
                 </div>
