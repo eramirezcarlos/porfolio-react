@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Utilizing React App to migrate my Porfolio from PHP/HTML
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
