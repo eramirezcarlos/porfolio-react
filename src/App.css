@@ -1251,4 +1251,17 @@ h3.comment-form-title{
      margin-top:13px;
  }
 
-
+#preloader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;        
+}
+html {
+    scroll-behavior: smooth;
+}
+/*VIDEO BACKGROUND */
+.electronic{
+    width: 900px;
+    height: 700px;
+}

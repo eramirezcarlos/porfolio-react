@@ -1,10 +1,33 @@
-import { Fragment } from 'react';
+import { useEffect } from 'react';
+
+
+import $ from 'jquery';
+
+window.jQuery = $;
+window.$ = $;
+global.jQuery = $;
 
 const Header = () =>{
 
+    useEffect(()=>{
+
+       $('.navbar-collapse a').on('click', function () {
+            //$(".navbar-collapse").collapse('hide');
+        });
+    
+        $( window ).on('scroll', function () {
+            if ($(".navbar").offset().top > 100) {
+                //$(".navbar-fixed-top").addClass("top-nav-collapse");
+            } else {
+                //$(".navbar-fixed-top").removeClass("top-nav-collapse");
+            }
+        });        
+        
+    },[]);
+
     return(
 
-        <header className="navbar custom-navbar navbar-fixed-top">
+    <header className="navbar custom-navbar navbar-fixed-top">
         <div className="container">
             <div className="row">
                 <div className="col-md-3 col-sm-3 col-xs-12">

@@ -1,5 +1,4 @@
 import { Fragment } from 'react';
-import Header from './Header';
 import Welcome from './Welcome';
 import About from './About';
 import Services from './Services';
@@ -8,6 +7,8 @@ import Testimonial from './Testimonial';
 import CtaArea from './CtaArea';
 import Contact from './Contact';
 import Footer from './Footer';
+import Header from './Header';
+
 
 const Layout = () =>{
     return(
@@ -18,7 +19,6 @@ const Layout = () =>{
         <About />
         <Services />
         <Work />
-        <Testimonial />
         <CtaArea />
         <Contact />
         <Footer />

@@ -1,0 +1,61 @@
+/*
+.navbar-brand {
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top:0!important;
+    padding-bottom:0!important;
+    line-height: 2rem;
+    height:5rem;
+    
+    font-family: 'Montserrat', sans-serif;
+    color: yellowgreen!important;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-top: 21px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    line-height: 40px;
+
+} 
+
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+.mr-auto, .nav-link {
+    margin-left: auto !important;
+}
+.mr-auto, .mx-auto {
+    margin-right: inherit!important;
+}
+.navbar-nav a{
+
+    font-weight: 500;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.bg-light {
+    
+    background-color:transparent !important;
+    
+}
+.navbar{
+    width:100%;
+}
+
+#basic-navbar-nav{
+
+    font-size:1.5rem;
+}
+*/

@@ -1,13 +1,30 @@
+import { useEffect } from 'react';
 import WebDevelopment from '../assets/img/service/web_development.png';
 import PHPDevelopment from '../assets/img/service/php_image.png';
 import AppDevelopment from '../assets/img/service/app_development.png';
 import SeoDevelopment from '../assets/img/service/seo_image.png';
 import IsoMorphicImage from '../assets/img/service/isomorphic_image.png';
 
+import $ from 'jquery';
 
 
+ 
 
 const Services = () => {
+
+    useEffect(() => {
+
+        $('.row-eq-height').each(function () {
+            var highestBox = 0;
+            $(this).children('[class*="col-"]').each(function (index, el) {
+                if ($(el).height() > highestBox) highestBox = $(el).height();
+            });
+            $(this).children('[class*="col-"]').css('height', highestBox);
+        });
+    
+    },[]);       
+
+
 
     return(
 

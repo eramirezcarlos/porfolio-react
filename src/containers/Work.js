@@ -66,7 +66,7 @@ const Work = () => {
             
                             <div className="col-md-12">
                             
-                                <div tabindex="0" className="modal fade" id="projectModal1">
+                                <div tabIndex="0" className="modal fade" id="projectModal1">
                                     <div className="modal-dialog">
                                         <div className="modal-content">
                                             <div className="modal-header">
@@ -97,7 +97,7 @@ const Work = () => {
                                     </div>
                                 </div>
                             
-                                <div tabindex="0" className="modal fade" id="projectModal3">
+                                <div tabIndex="0" className="modal fade" id="projectModal3">
                                     <div className="modal-dialog">
                                         <div className="modal-content">
                                             <div className="modal-header">
